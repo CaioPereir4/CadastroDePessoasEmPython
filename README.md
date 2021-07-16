@@ -1,11 +1,10 @@
-## Sistema de cadastros em Python :computer:
+## Sistema de cadastros em Python :snake:
 
 #### O sistema guarda: 
 
 - Telefone 
-
 - Nome
-
 - Idade
-  
+
+
 
