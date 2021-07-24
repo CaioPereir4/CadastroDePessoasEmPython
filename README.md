@@ -8,3 +8,8 @@
 
 
 
+
+Realizado por: Caio Pereira
+
+Descrição: Foi criado um sistema de cadastros simples totalmente na em Python. O sistema pode ser utilizado em diversas áreas. 
+

@@ -3,15 +3,15 @@ posiçao = 1
 base_dados = []
 contador = a = 0
 pessoa_c = 0
-print(f"{'Bem Vindo - CADASTRO DE PESSOAS':-^50}\n\n")
-while True:
+print(f"{'Bem Vindo - CADASTRO DE PESSOAS':-^50}\n\n") 
+while True: #Testando nessa linha
     print("escolha uma opção! ")
     print("\n[1] - Cadastrar pessoa ")
     print("[2] - Motrar os dados do sistema em ordem alfabetica",)
     print("[3] - Finalizar programa")
-    op = int(input("\nDigite sua opção : " ))
+    op = str(input("\nDigite sua opção : " ))
     print('-='*26)
-    if op == 1: # CADASTRO DE PESSOAS
+    if op == "1": # CADASTRO DE PESSOAS
         cadastro = []
         print("\nOk ,então vamos ao cadastro! ")
         nome = str(input("\nDigite o nome completo da pessoa : ")).strip().capitalize()
@@ -24,7 +24,7 @@ while True:
         base_dados.append(cadastro)
         print("\nPessoa cadastrada com sucesso!")
         time.sleep(2)
-    elif op == 2: # ORDEM ALFABETICA
+    elif op == "2": # ORDEM ALFABETICA
         contador = 0
         posiçao = 1
         base_alfabetica = sorted(base_dados)
@@ -44,7 +44,7 @@ while True:
                 print("\nEsses são todos os dados do sistema!")
                 time.sleep(2)              
             (4)
-    elif op == 3:
+    elif op == "3":
         break
         print("Finalizando programa...")
         time.sleep(3)
